@@ -1,4 +1,4 @@
-package com.qf.musicplayer.settings
+package com.qf.videoplayer.settings
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,7 +9,7 @@ import android.content.SharedPreferences
 import android.content.pm.ResolveInfo
 import android.os.Bundle
 import android.util.Log
-import com.qf.musicplayer.ui.R
+import com.qf.videoplayer.ui.R
 
 class SettingsActivity : Activity() {
 

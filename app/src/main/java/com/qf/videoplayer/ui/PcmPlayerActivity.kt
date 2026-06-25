@@ -1,4 +1,4 @@
-package com.qf.musicplayer.ui
+package com.qf.videoplayer.ui
 
 import android.app.Activity
 import android.content.Intent

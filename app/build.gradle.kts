@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.qf.musicplayer.ui"
+    namespace = "com.qf.videoplayer.ui"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.qf.musicplayer"
+        applicationId = "com.qf.videoplayer"
         minSdk = 29
 
 

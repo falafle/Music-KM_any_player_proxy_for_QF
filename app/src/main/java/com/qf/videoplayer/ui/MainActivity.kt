@@ -1,4 +1,4 @@
-package com.qf.musicplayer.ui
+package com.qf.videoplayer.ui
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -20,7 +20,7 @@ import android.util.Log
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.WindowManager
-import com.qf.musicplayer.settings.SettingsActivity
+import com.qf.videoplayer.settings.SettingsActivity
 
 class MainActivity : Activity() {
 
