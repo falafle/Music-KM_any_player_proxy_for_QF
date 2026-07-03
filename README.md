@@ -1,3 +1,7 @@
+# Modified Music-KM
+
+Modified **Music-KM** so it replaces video player instead of music player, all other functionallities are the same as in original app.
+
 <p align="center">
   <a href="https://www.paypal.com/paypalme/kostyamat">
     <img src="https://thumbs.dreamstime.com/b/cute-kawaii-coffee-mug-character-smiling-steam-isolated-white-adorable-cartoon-happy-face-decorative-lace-pattern-401912575.jpg" alt="Buy me a coffee" width="200"/>
@@ -5,8 +9,6 @@
     <strong>If you found my work helpful, buy me a coffee! It keeps me motivated ☕</strong>
   </a>
 </p>
-
-
 
 # Music-KM
 
@@ -33,11 +35,11 @@ This creates a seamless experience, making your favorite player feel like a nati
 
 To install this app as a system update and successfully bypass signature verification, you MUST meet the following requirements:
 
-*   **Root Access** is required.
-*   **Magisk** must be installed.
-*   **Zygisk** must be enabled in your Magisk settings.
-*   You must install the **PMPatch** Magisk Module to disable Android's signature verification check. Failure to do so will prevent the installation.
-    *   **Download PMPatch:** [Here](https://github.com/vova7878-modules/PMPatch/releases/download/v1.2.0/PMPatch3.zip)
+- **Root Access** is required.
+- **Magisk** must be installed.
+- **Zygisk** must be enabled in your Magisk settings.
+- You must install the **PMPatch** Magisk Module to disable Android's signature verification check. Failure to do so will prevent the installation.
+  - **Download PMPatch:** [Here](https://github.com/vova7878-modules/PMPatch/releases/download/v1.2.0/PMPatch3.zip)
 
 ### Installation Steps
 
@@ -59,11 +61,13 @@ If you need to change the substitute player later:
 Since this is installed as a system component update, you cannot uninstall it directly from the launcher. Use one of the following methods:
 
 **Option 1: Using ADB (Recommended)**
+
 1.  Connect to your head unit via ADB.
 2.  Run the command: `adb uninstall com.qf.musicplayer`
 3.  Reboot your head unit.
 
 **Option 2: Via App Settings**
+
 1.  Go to Settings → Apps.
 2.  Show system apps (usually via the three-dot menu).
 3.  Find "Music-KM" in the list.
@@ -90,11 +94,11 @@ Since this is installed as a system component update, you cannot uninstall it di
 
 Щоб встановити цей додаток як системне оновлення та успішно обійти перевірку підпису, ви ПОВИННІ відповідати наступним вимогам:
 
-*   Потрібен **Root-доступ**.
-*   Має бути встановлений **Magisk**.
-*   У налаштуваннях Magisk має бути увімкнений **Zygisk**.
-*   Ви повинні встановити модуль Magisk **PMPatch**, щоб вимкнути системну перевірку підписів. Без нього встановлення буде неможливим.
-    *   **Завантажити PMPatch:** [Тут](https://github.com/vova7878-modules/PMPatch/releases/download/v1.2.0/PMPatch3.zip)
+- Потрібен **Root-доступ**.
+- Має бути встановлений **Magisk**.
+- У налаштуваннях Magisk має бути увімкнений **Zygisk**.
+- Ви повинні встановити модуль Magisk **PMPatch**, щоб вимкнути системну перевірку підписів. Без нього встановлення буде неможливим.
+  - **Завантажити PMPatch:** [Тут](https://github.com/vova7878-modules/PMPatch/releases/download/v1.2.0/PMPatch3.zip)
 
 ### Кроки встановлення
 
@@ -116,11 +120,13 @@ Since this is installed as a system component update, you cannot uninstall it di
 Оскільки додаток встановлюється як оновлення системного компонента, його не можна видалити напряму з лаунчера. Використовуйте один з наступних методів:
 
 **Спосіб 1: Через ADB (рекомендовано)**
+
 1.  Підключіться до вашої магнітоли через ADB.
 2.  Виконайте команду: `adb uninstall com.qf.musicplayer`
 3.  Перезавантажте магнітолу.
 
 **Спосіб 2: Через налаштування додатків**
+
 1.  Перейдіть у Налаштування → Додатки.
 2.  Увімкніть показ системних додатків (зазвичай через меню з трьома крапками).
 3.  Знайдіть "Music-KM" у списку.
