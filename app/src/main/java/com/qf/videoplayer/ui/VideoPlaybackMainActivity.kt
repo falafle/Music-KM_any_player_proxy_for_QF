@@ -1,9 +1,8 @@
-package com.qf.musicplayer.ui
+package com.qf.videoplayer.ui
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.AlertDialog
-import android.content.ActivityNotFoundException
 import android.content.BroadcastReceiver
 import android.content.ComponentName
 import android.content.Context
@@ -20,9 +19,9 @@ import android.util.Log
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.WindowManager
-import com.qf.musicplayer.settings.SettingsActivity
+import com.qf.videoplayer.settings.SettingsActivity
 
-class MainActivity : Activity() {
+class VideoPlaybackMainActivity : Activity() {
 
     companion object {
         private const val TAG = "PcmProxy"
@@ -184,7 +183,7 @@ class MainActivity : Activity() {
     private fun bringProxyToFront() {
         handler.postDelayed({
             Log.d(TAG, "Bringing proxy back to the front.")
-            val selfIntent = Intent(this, MainActivity::class.java)
+            val selfIntent = Intent(this, VideoPlaybackMainActivity::class.java)
             selfIntent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
             startActivity(selfIntent)
         }, REORDER_TO_FRONT_DELAY_MS)
